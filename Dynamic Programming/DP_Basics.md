@@ -1,1 +1,2 @@
-# Dynamic Programming
+# Dynamic Programming Basics
+**Dynamic Programming** is an algorithmic paradigm that splits a complex problem into subproblems and stores answers of these subproblems to avoid computing these results again. It is an optimization over plain recursion, which reduces time complexity from exponential to polynomial. However, it increases space complexity (not a huge concern in competitive programming).
