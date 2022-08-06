@@ -21,9 +21,12 @@ The **Base condition/case** of recursion is the stopping condition of recursion,
 <br>
 
 ### Call Stack
+When a recursive function is called, it goes on top of the "call stack".
+This "call stack" uses a Last In First Out (LIFO) method like a regular stack. This means that functions called last will be executed first.
 
 <br><br>
 ### References
 - [Recursion (geeksforgeeks)](https://www.geeksforgeeks.org/recursion/)
 - [Recursion in Programming (course by freeCodeCamp.org on youtube)](https://youtu.be/IJDJ0kBx2LM)
+- [How Recursion Works (freecodecamp)](https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/)
 - [Memoization (wikipedia)](https://en.wikipedia.org/wiki/Memoization#cite_note-Norvig1991-1)
