@@ -18,6 +18,10 @@ The **Base condition/case** of recursion is the stopping condition of recursion,
 - Can lead to out of memory errors and stack overflow exceptions.
 - Can cause unnecessarily complex code if poorly constructed. Make sure recursion is used well and not unnecessarily.
 
+<br>
+
+### Call Stack
+
 <br><br>
 ### References
 - [Recursion (geeksforgeeks)](https://www.geeksforgeeks.org/recursion/)
