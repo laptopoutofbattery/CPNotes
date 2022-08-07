@@ -44,6 +44,22 @@ In competitive programming, recursion is used for:
 1. Divide and conquer
 2. Dynamic programming
 3. Graphs
+4. Trees
+
+<br>
+
+**Examples**  
+Factorial function:
+```c++
+int factorial(int n) {
+    // base case
+    if(n==0) {
+        return 1;
+    }
+
+    return n*factorial(n-1);
+}
+```
 
 <br><br>
 ### References
