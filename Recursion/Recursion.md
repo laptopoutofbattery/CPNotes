@@ -20,9 +20,30 @@ The **Base condition/case** of recursion is the stopping condition of recursion,
 
 <br>
 
-### Call Stack
+**Call Stack**  
 When a recursive function is called, it goes on top of the "call stack".
 This "call stack" uses a Last In First Out (LIFO) method like a regular stack. This means that functions called last will be executed first.
+
+<br>
+
+**Recursion VS Iteration**
+
+
+|        | Recursion     | Iteration  |
+| -------|:-------------:| :---------:|
+| 1      | Terminates when base case becomes true | Terminates when loop condition becomes false      |
+| 2      | Uses functions      |  Uses loops      |
+| 3      | Each recursive call needs additional memory in the stack memory | Each iteration does not use extra memory|
+|4| Smaller code size, more elegant| Larger code size|
+
+<br>
+
+**Applications of recursion**  
+Recursion is obviously very important and has widespread use.
+In competitive programming, recursion is used for:
+1. Divide and conquer
+2. Dynamic programming
+3. Graphs
 
 <br><br>
 ### References
