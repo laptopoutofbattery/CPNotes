@@ -22,7 +22,9 @@ The **Base condition/case** of recursion is the stopping condition of recursion,
 
 **Call Stack**  
 When a recursive function is called, it goes on top of the "call stack".
-This "call stack" uses a Last In First Out (LIFO) method like a regular stack. This means that functions called last will be executed first.
+This "call stack" uses a Last In First Out (LIFO) method like a regular stack. This means that functions called last will be executed first.  
+In recursion, function calls are nested until the base case is reached. Without the base case, there would be infinite nested function calls.  
+The depth of recursion is the maximum degree of nesting the function calls over the course of computation. The programming environment has to maintain a pushdown stack of size proportional to the depth of the recursion. For huge problems, the space needed for this stack might prevent the use of plain recursion.
 
 <br>
 
