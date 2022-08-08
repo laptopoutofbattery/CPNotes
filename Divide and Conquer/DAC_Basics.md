@@ -4,6 +4,8 @@
 2. Conquer: solve sub-problems by calling recursively until solved
 3. Combine: combine the sub-problems to get the solution
 
+Contrary to popular belief, **Binary Search is NOT an example of Divide and Conquer**. Binary Search compares the middle value of the input element with that of the middle of the subarray. If the value is not the same, the algorithmn recurs for the corresponding side of the sorted subarray. Since there is only 1 subproblem in each step, it is a **Decrease and Conquer** algorithmn. Divide and Conquer algorithmns must have 2 or more subproblems in each step.
+
 <br><br>
 ### References
 - [Divide and Conquer Algorithm: Introduction (geeksforgeeks)](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
