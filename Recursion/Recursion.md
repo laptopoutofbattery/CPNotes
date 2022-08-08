@@ -60,6 +60,28 @@ int factorial(int n) {
     return n*factorial(n-1);
 }
 ```
+Fibonacci Sequence function:
+```c++
+int fibonacci(int n) {
+    // base case
+    if(n==1 || n==2) {
+        return 1;
+    }
+
+    else return fibonacci(n-1)+fibonacci(n-2);
+}
+```
+Euclidean Algorithmn function:
+```c++
+int euclid(int a, int b) {
+    // base case
+    if(b == 0) {
+        return a;
+    }
+
+    else return euclid(b, a % b);
+}
+```
 
 <br><br>
 ### References
