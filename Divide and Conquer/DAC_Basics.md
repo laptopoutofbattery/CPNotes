@@ -25,9 +25,10 @@ int max(int arr[], int l, int r) {
 ```
 
 **Examples of algorithms that use Divide and Conquer**
-1. Quicksort
+1. Quicksort  
 The algorithm picks a pivot element and rearranges the array elements so that all elements smaller than the picked pivot element move to the left side of the pivot, and all greater elements move to the right side. Finally, the algorithm recursively sorts the subarrays on the left and right of the pivot element.
-
+2. Merge Sort  
+The algorithm divides the array into two halves, recursively sorts them, and finally merges the two sorted halves.
 
 <br><br>
 ### References
