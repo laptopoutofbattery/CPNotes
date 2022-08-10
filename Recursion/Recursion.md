@@ -6,7 +6,7 @@ The **Base condition/case** of recursion is the stopping condition of recursion,
 <br>
 
 **Why use recursion?**  
-- Significantly reduces the length of code and make it easier to read. It provides elegance in complex data structures and algorithmns.
+- Significantly reduces the length of code and make it easier to read. It provides elegance in complex data structures and algorithms.
 - Reduces the need for complex loops and auxiliary data structures. Similar to the first point, simplifies your code.
 - Reduces time complexity with **memoization**. Memoization is an optimization technique used to speed up programs by returning the cached result when the same input occurs again.
 - Works well with trees and graphs. Important in graph theory.
@@ -73,7 +73,7 @@ int fibonacci(int n) {
     else return fibonacci(n-1)+fibonacci(n-2);
 }
 ```
-Euclidean Algorithmn function:
+Euclidean Algorithm function:
 ```c++
 int euclid(int a, int b) {
     // base case
