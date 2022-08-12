@@ -3,7 +3,7 @@
 
 Dynamic programming is used to efficiently solve problems with 2 main properties: **overlapping subproblems** and **optimal substructure**.
 ### Overlapping Subproblems Property
-
+Dynamic Programming combines solutions to sub-problems. When the same subproblems are repeatedly needed
 
 <br><br>
 ### References
