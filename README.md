@@ -1,2 +1,2 @@
-# Competitive_Programming
+# Competitive Programming
 Notes for learning/revising
