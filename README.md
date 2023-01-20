@@ -1,2 +1,2 @@
-# Competitive_programming
-Trying to learn new concepts.
+# Competitive_Programming
+Notes for learning/revising
