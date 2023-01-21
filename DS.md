@@ -187,6 +187,32 @@ x["notword"] = 5;
 x["awesome"] = 1;
 ```
 
+<br>
+
+**Unordered map**
+- Essentially a map that is unordered
+```C++
+unordered_map<string, int> x; //declaring an unordered map
+```
+
+<br>
+
+### Intermediate(?) Data Structures  
+---------------------------
+
+**Policy Based Data Structure**
+- Somewhat similar to sets, but with extra, more powerful operations
+- Not part of the C++ standard library (but still supported by the g++ compiler)
+```C++
+//include these headers to use policy-based structures
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+//namespace (be careful when using std:: as well)
+using namespace __gnu_pbds;
+```
+
+
+
 <br><br><br><br>
 
 ![Common Data Structure Operations](images/dsops.png)
