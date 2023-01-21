@@ -207,11 +207,35 @@ unordered_map<string, int> x; //declaring an unordered map
 //include these headers to use policy-based structures
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
-//namespace (be careful when using std:: as well)
+
+//namespace
 using namespace __gnu_pbds;
+
+//defining a data structure indexed_set (for int values)
+typedef tree<int,null_type,less<int>,rb_tree_tag, tree_order_statistics_node_update> indexed_set;
+
+//defining a data structure multi_indexed_set (for int values)
+typedef tree<int,null_type,less_equal<int>,rb_tree_tag, tree_order_statistics_node_update> multi_indexed_set;
+
+indexed_set s;
+s.insert(2);
+s.insert(5);
+s.insert(7);
+s.insert(9);
+
+auto x = s.find_by_order(2); //returns an iterator to the element at a given position
+cout << *x; //7
+
+cout << s.order_of_key(7); //returns the position of a given element
+
+//these functions work in log(n) time!
 ```
 
-
+<br><br>
+### References
+- [Guide to Competitive Programming by Antti Laaksonen](https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf)
+- [Data Structures (geeksforgeeks)](https://www.geeksforgeeks.org/data-structures/)
+- [Policy Based Data Structure (article by Ansh Gupta)](https://medium.com/nybles/policy-based-data-structure-491ac62ddeaa)
 
 <br><br><br><br>
 
