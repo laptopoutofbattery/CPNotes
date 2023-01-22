@@ -5,4 +5,4 @@ Range queries can be static, where the set of elements is not changes in between
 
 <br>
 
-**Static queries**
+### **Queries on static arrays**
