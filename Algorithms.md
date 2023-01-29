@@ -1,8 +1,6 @@
 # Useful Aglorithms
 Just some random algorithms that can be useful.
 
-<br>
-
 ### Kadane's Algorithm
 [**Kadane's Algorithm**](https://cp-algorithms.com/others/maximum_average_segment.html#algorithm-2) solves the largest contiguous subarray problem: given an array of size N, find the sum of the contiguous subarray within the array with the largest sum.  
 How it works:
