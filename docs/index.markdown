@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Competitive Programming
+<h1> Competitive Programming </h1>  
 (Very incomplete) Notes for learning/revising  
 *Note that I am not very smart so the content of these notes may not always be accurate. If you spot any mistakes, you can create a pull request. Thanks!*
 
