@@ -4,7 +4,7 @@ title: Algorithms
 permalink: /algorithms/
 usemathjax: true
 ---
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 # Useful Aglorithms
 Just some random algorithms that can be useful.
 
