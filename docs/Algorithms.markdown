@@ -2,6 +2,7 @@
 layout: page
 title: Algorithms
 permalink: /algorithms/
+usemathjax: true
 ---
 
 # Useful Aglorithms
