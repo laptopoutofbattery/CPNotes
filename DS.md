@@ -231,6 +231,14 @@ cout << s.order_of_key(7); //returns the position of a given element
 //these functions work in log(n) time!
 ```
 
+<br>
+
+**Fenwick Tree**
+- calculates the sum of elements over a given range in an array in $O(logn)$ time
+- updates the value of an element of in an array in $O(logn)$ time
+- requires $O(n)$ memory
+
+
 <br><br>
 ### References
 - [Guide to Competitive Programming by Antti Laaksonen](https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf)
