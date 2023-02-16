@@ -14,3 +14,9 @@ In general, the value inside the O() should be >= time limit * 1000000
 - 10^3: O(N^2)
 - 10^2: O(N^3)
 - 10: O(N!)/O(2^N)
+
+**Fast IO for C++**
+```c++
+std::ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+```
