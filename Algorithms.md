@@ -10,7 +10,7 @@ How it works:
     - if arr[mid]==target element, then the value has been found
     - if arr[mid]<target element, then set $r$ to be $mid-1$
     - if arr[mid]>target element, then set $l$ to be $mid+1$
-- repeat previous step until value has been found or $r$>$l$
+- repeat previous step until value has been found or $r < l$
 
 Implementation (copied from [cp-algorithms.com](https://cp-algorithms.com)):
 ```c++
